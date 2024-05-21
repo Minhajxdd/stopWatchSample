@@ -1,0 +1,79 @@
+body{
+    background-color: skyblue;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 5rem;
+    color: rgb(138, 9, 224);
+}
+
+#container{
+    border: 10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 650px;
+    border-radius: 50px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(173, 192, 116);
+}
+
+#container #watch{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+#container #btns button{
+    padding: 10px 30px;
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 0;
+    color: #fff;
+}
+
+#container #btns #start{
+    background-color: rgb(52, 52, 175);
+}
+
+#container #btns #start:hover{
+    background-color: rgb(94, 94, 235);
+}
+#container #btns #start:active{
+    background-color: rgb(50, 50, 124);
+}
+
+#container #btns #stop{
+    background-color: rgb(235, 201, 14);
+}
+
+#container #btns #stop:hover{
+    background-color: rgb(255, 217, 0);
+}
+#container #btns #stop:active{
+    background-color: rgb(185, 203, 53);
+}
+
+
+#container #btns #reset{
+    background-color: rgb(230, 46, 46);
+}
+
+#container #btns #reset:hover{
+    background-color: rgb(255, 0, 89);
+}
+
+#container #btns #reset:active{
+    background-color: rgb(165, 6, 62);
+}
